@@ -5,7 +5,6 @@ namespace Ebuyer\Sentinel\Services;
 use Ebuyer\Sentinel\Facades\Sentinel;
 use Illuminate\Console\Scheduling\Event;
 use Illuminate\Console\Scheduling\Schedule;
-use Illuminate\Support\Facades\Log;
 
 class SentinelSchedule extends Schedule
 {
