@@ -11,7 +11,7 @@ class SentinelServiceProvider extends ServiceProvider
     {
         $this->app->singleton(
             'schedule',
-            fn ($app) => new SentinelSchedule()
+            fn ($app) => new SentinelSchedule
         );
     }
 }
