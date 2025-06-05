@@ -2,9 +2,9 @@
 
 namespace Ebuyer\Sentinel;
 
+use Ebuyer\Sentinel\Commands\SentinelCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ebuyer\Sentinel\Commands\SentinelCommand;
 
 class SentinelServiceProvider extends PackageServiceProvider
 {

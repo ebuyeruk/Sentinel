@@ -2,9 +2,9 @@
 
 namespace Ebuyer\Sentinel\Tests;
 
+use Ebuyer\Sentinel\SentinelServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ebuyer\Sentinel\SentinelServiceProvider;
 
 class TestCase extends Orchestra
 {
