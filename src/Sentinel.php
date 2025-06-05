@@ -2,4 +2,10 @@
 
 namespace Ebuyer\Sentinel;
 
-class Sentinel {}
+class Sentinel
+{
+    public function isEnabled($task): bool
+    {
+        return true;
+    }
+}
