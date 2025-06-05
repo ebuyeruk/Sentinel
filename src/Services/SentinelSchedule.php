@@ -15,8 +15,6 @@ class SentinelSchedule extends Schedule
             return false;
         }
 
-        Log::info('Scheduling '.$command);
-
         return parent::exec($command, $parameters);
     }
 }

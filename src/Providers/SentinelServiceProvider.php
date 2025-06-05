@@ -12,7 +12,7 @@ class SentinelServiceProvider extends ServiceProvider
     {
         $this->app->singleton(
             Schedule::class,
-            fn ($app) => new SentinelSchedule
+            fn ($app) => new SentinelSchedule(config('app.timezone'))
         );
     }
 }
